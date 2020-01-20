@@ -1,0 +1,30 @@
+body{
+    grid-template-columns: 150px 1fr;
+}
+
+.container {
+    display: grid;
+    background-repeat: repeat repeat;
+    /* height: 900vh; */
+    grid-template-columns: 
+        [left-navbar-start] 40%
+        [left-navbar-end content-start] 60%;        
+    grid-template-rows: 
+        [body-start] 80%
+        [body-end footer-start] 20%
+        [footer-end];
+}
+
+.TitleGrid{    
+    color:white;
+    font-weight: bold;
+    background-color: green;
+    display:grid;
+    padding-left:50px;
+    padding-top: 300px;
+}
+.Content{
+    margin-left: 50px;
+    display:block;
+}
+
