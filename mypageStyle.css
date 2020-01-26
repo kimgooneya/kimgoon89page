@@ -1,7 +1,6 @@
 body{
     grid-template-columns: 150px 1fr;
 }
-
 .container {
     display: grid;
     background-repeat: repeat repeat;
@@ -14,7 +13,6 @@ body{
         [body-end footer-start] 20%
         [footer-end];
 }
-
 .TitleGrid{    
     color:white;
     font-weight: bold;
